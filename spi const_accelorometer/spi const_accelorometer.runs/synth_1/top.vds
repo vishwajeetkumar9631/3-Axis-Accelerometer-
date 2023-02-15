@@ -1,0 +1,367 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Dec 28 23:49:36 2022
+# Process ID: 9336
+# Current directory: C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.runs/synth_1/top.vds
+# Journal file: C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.runs/synth_1\vivado.jou
+# Running On: DESKTOP-SJTLRAL, OS: Windows, CPU Frequency: 2196 MHz, CPU Physical cores: 4, Host memory: 11753 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1274.230 ; gain = 0.000
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19404
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 1274.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/top.v:20]
+INFO: [Synth 8-6157] synthesizing module 'iclk_gen' [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/iclk_gen.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'iclk_gen' (0#1) [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/iclk_gen.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_master' [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/spi_master.v:43]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/spi_master.v:196]
+INFO: [Synth 8-6155] done synthesizing module 'spi_master' (0#1) [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/spi_master.v:43]
+INFO: [Synth 8-6157] synthesizing module 'seg7_control' [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:86]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:128]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:145]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:171]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:188]
+INFO: [Synth 8-6155] done synthesizing module 'seg7_control' (0#1) [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/top.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:39 . Memory (MB): peak = 1274.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1274.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1274.230 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1274.230 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[1]'. [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[2]'. [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/constrs_1/new/const_accelrometer.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1303.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1303.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:06 ; elapsed = 00:01:17 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:06 ; elapsed = 00:01:17 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:17 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                POWER_UP |                          0000000 |                          0000000
+              BEGIN_SPIW |                          0000001 |                          0000001
+              SEND_WCMD7 |                          0000010 |                          0000010
+              SEND_WCMD6 |                          0000011 |                          0000011
+              SEND_WCMD5 |                          0000100 |                          0000100
+              SEND_WCMD4 |                          0000101 |                          0000101
+              SEND_WCMD3 |                          0000110 |                          0000110
+              SEND_WCMD2 |                          0000111 |                          0000111
+              SEND_WCMD1 |                          0001000 |                          0001000
+              SEND_WCMD0 |                          0001001 |                          0001001
+             SEND_WADDR7 |                          0001010 |                          0001010
+             SEND_WADDR6 |                          0001011 |                          0001011
+             SEND_WADDR5 |                          0001100 |                          0001100
+             SEND_WADDR4 |                          0001101 |                          0001101
+             SEND_WADDR3 |                          0001110 |                          0001110
+             SEND_WADDR2 |                          0001111 |                          0001111
+             SEND_WADDR1 |                          0010000 |                          0010000
+             SEND_WADDR0 |                          0010001 |                          0010001
+              SEND_BYTE7 |                          0010010 |                          0010010
+              SEND_BYTE6 |                          0010011 |                          0010011
+              SEND_BYTE5 |                          0010100 |                          0010100
+              SEND_BYTE4 |                          0010101 |                          0010101
+              SEND_BYTE3 |                          0010110 |                          0010110
+              SEND_BYTE2 |                          0010111 |                          0010111
+              SEND_BYTE1 |                          0011000 |                          0011000
+              SEND_BYTE0 |                          0011001 |                          0011001
+                    WAIT |                          0011010 |                          0011010
+              BEGIN_SPIR |                          0011011 |                          0011011
+              SEND_RCMD7 |                          0011100 |                          0011100
+              SEND_RCMD6 |                          0011101 |                          0011101
+              SEND_RCMD5 |                          0011110 |                          0011110
+              SEND_RCMD4 |                          0011111 |                          0011111
+              SEND_RCMD3 |                          0100000 |                          0100000
+              SEND_RCMD2 |                          0100001 |                          0100001
+              SEND_RCMD1 |                          0100010 |                          0100010
+              SEND_RCMD0 |                          0100011 |                          0100011
+             SEND_RADDR7 |                          0100100 |                          0100100
+             SEND_RADDR6 |                          0100101 |                          0100101
+             SEND_RADDR5 |                          0100110 |                          0100110
+             SEND_RADDR4 |                          0100111 |                          0100111
+             SEND_RADDR3 |                          0101000 |                          0101000
+             SEND_RADDR2 |                          0101001 |                          0101001
+             SEND_RADDR1 |                          0101010 |                          0101010
+             SEND_RADDR0 |                          0101011 |                          0101011
+               REC_XLSB7 |                          0101100 |                          0101100
+               REC_XLSB6 |                          0101101 |                          0101101
+               REC_XLSB5 |                          0101110 |                          0101110
+               REC_XLSB4 |                          0101111 |                          0101111
+               REC_XLSB3 |                          0110000 |                          0110000
+               REC_XLSB2 |                          0110001 |                          0110001
+               REC_XLSB1 |                          0110010 |                          0110010
+               REC_XLSB0 |                          0110011 |                          0110011
+               REC_XMSB7 |                          0110100 |                          0110100
+               REC_XMSB6 |                          0110101 |                          0110101
+               REC_XMSB5 |                          0110110 |                          0110110
+               REC_XMSB4 |                          0110111 |                          0110111
+               REC_XMSB3 |                          0111000 |                          0111000
+               REC_XMSB2 |                          0111001 |                          0111001
+               REC_XMSB1 |                          0111010 |                          0111010
+               REC_XMSB0 |                          0111011 |                          0111011
+               REC_YLSB7 |                          0111100 |                          0111100
+               REC_YLSB6 |                          0111101 |                          0111101
+               REC_YLSB5 |                          0111110 |                          0111110
+               REC_YLSB4 |                          0111111 |                          0111111
+               REC_YLSB3 |                          1000000 |                          1000000
+               REC_YLSB2 |                          1000001 |                          1000001
+               REC_YLSB1 |                          1000010 |                          1000010
+               REC_YLSB0 |                          1000011 |                          1000011
+               REC_YMSB7 |                          1000100 |                          1000100
+               REC_YMSB6 |                          1000101 |                          1000101
+               REC_YMSB5 |                          1000110 |                          1000110
+               REC_YMSB4 |                          1000111 |                          1000111
+               REC_YMSB3 |                          1001000 |                          1001000
+               REC_YMSB2 |                          1001001 |                          1001001
+               REC_YMSB1 |                          1001010 |                          1001010
+               REC_YMSB0 |                          1001011 |                          1001011
+               REC_ZLSB7 |                          1001100 |                          1001100
+               REC_ZLSB6 |                          1001101 |                          1001101
+               REC_ZLSB5 |                          1001110 |                          1001110
+               REC_ZLSB4 |                          1001111 |                          1001111
+               REC_ZLSB3 |                          1010000 |                          1010000
+               REC_ZLSB2 |                          1010001 |                          1010001
+               REC_ZLSB1 |                          1010010 |                          1010010
+               REC_ZLSB0 |                          1010011 |                          1010011
+               REC_ZMSB7 |                          1010100 |                          1010100
+               REC_ZMSB6 |                          1010101 |                          1010101
+               REC_ZMSB5 |                          1010110 |                          1010110
+               REC_ZMSB4 |                          1010111 |                          1010111
+               REC_ZMSB3 |                          1011000 |                          1011000
+               REC_ZMSB2 |                          1011001 |                          1011001
+               REC_ZMSB1 |                          1011010 |                          1011010
+               REC_ZMSB0 |                          1011011 |                          1011011
+                 END_SPI |                          1011100 |                          1011100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'spi_master'
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.srcs/sources_1/new/seg7_control.v:87]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:19 ; elapsed = 00:01:33 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	  93 Input   32 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	  93 Input   16 Bit        Muxes := 6     
+	   8 Input    8 Bit        Muxes := 1     
+	  93 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 10    
+	  93 Input    1 Bit        Muxes := 7     
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (display_control/seg_reg[0]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:01 ; elapsed = 00:02:20 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:25 ; elapsed = 00:02:47 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:25 ; elapsed = 00:02:47 . Memory (MB): peak = 1303.059 ; gain = 28.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:25 ; elapsed = 00:02:48 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:01 ; elapsed = 00:03:29 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:01 ; elapsed = 00:03:29 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:02 ; elapsed = 00:03:29 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:02 ; elapsed = 00:03:29 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:02 ; elapsed = 00:03:30 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:02 ; elapsed = 00:03:30 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     3|
+|4     |LUT2   |    22|
+|5     |LUT3   |    24|
+|6     |LUT4   |    21|
+|7     |LUT5   |    41|
+|8     |LUT6   |    91|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   100|
+|11    |IBUF   |     2|
+|12    |OBUF   |    34|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:02 ; elapsed = 00:03:30 . Memory (MB): peak = 1307.781 ; gain = 33.551
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:22 ; elapsed = 00:03:19 . Memory (MB): peak = 1307.781 ; gain = 4.723
+Synthesis Optimization Complete : Time (s): cpu = 00:03:02 ; elapsed = 00:03:30 . Memory (MB): peak = 1307.781 ; gain = 33.551
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1315.605 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1323.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 624a3af0
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 11 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:20 ; elapsed = 00:03:55 . Memory (MB): peak = 1323.250 ; gain = 49.020
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vishwajeet/spi const_accelorometer/spi const_accelorometer.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 28 23:53:56 2022...
