@@ -24,3 +24,13 @@ The device that generates the clock signal is called the main. Data transmitted 
 SPI interfaces can have only one main and can have one or multiple subnodes. Figure 1 shows the SPI connection between the main and the subnode.
 The chip select signal from the main is used to select the subnode. This is normally an active low signal and is pulled high to disconnect the subnode from the SPI bus. When multiple subnodes are used, an individual chip select signal for each subnode is required from the main. In this article, the chip select signal is always an active low signal.
 MOSI and MISO are the data lines. MOSI transmits data from the main to the subnode and MISO transmits data from the subnode to the main.
+
+
+![IMG_20221230_211629](https://user-images.githubusercontent.com/125308772/218946494-d9473a2d-64be-406e-b879-cebfb484139a.jpg)
+![IMG_20221230_211653](https://user-images.githubusercontent.com/125308772/218946512-fc72e2f4-b9be-42cd-9e65-fb5af8d03a00.jpg)
+![IMG_20221230_211859](https://user-images.githubusercontent.com/125308772/218946518-f253f3f3-aa4c-4aa4-a9f2-0b8ca7595d17.jpg)
+![IMG_20221230_211859](https://user-images.githubusercontent.com/125308772/218946530-527ff6fd-ac6e-4adb-852f-38a304a73778.jpg)
+
+![IMG_20221230_211540](https://user-images.githubusercontent.com/125308772/218946501-37d04dd5-f836-4d9f-ab90-3f557703fcb2.jpg)
+![IMG_20221230_211820](https://user-images.githubusercontent.com/125308772/218946507-e39f868b-3a57-47ae-9f57-4af155c0610a.jpg)
+
